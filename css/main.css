@@ -1,14 +1,34 @@
+/* Meu primeiro Comentário */
+/* Reset do CSS para o navegador*/ 
+*{
+    margin: 0;  /* Margem */
+    padding: 0;  /* Preenchimento */
+} 
+
 body{
-    background-color:aliceblue;
+    height: 100%; /* altura */
+    width: 100%; /* largura */
+    display: flex;
+    justify-content: center;
+    background: linear-gradient(#7aeef8 #c7c8c8);
+    background-repeat: no-repeat;
+}   
+.imagem{
+    display: flex;
+    justify-content: center;
+}
+.imagem img{
+    width: 170px;
+    border-radius: 200px;
+    margin-top: 150px;   
+}
+.name{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: 32px;
+    font-weight: 600;
+    color: ;
+    font-family: ;
 }
 
-h1 {
-    
-}
-
-p {
-    color:red;
-}
-div{
-    
-}
